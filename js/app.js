@@ -89,7 +89,7 @@ $(document).ready(function(){
             title: "sock",
             imgSrc: "img/old-sock.png",
             isRecyclable: false,
-            success: "That's correct! But before you throw it away, check out <a href='http://www.wikihow.com/Recycle-Your-Socks'>these ideas</a>",
+            success: "That's correct! But before you throw it away, check out <a href='http://www.wikihow.com/Recycle-Your-Socks' target='_blank'>these ideas</a>",
             failure: "Ewww!"
         },
         {
