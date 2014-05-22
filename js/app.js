@@ -76,6 +76,7 @@ function Recepticle( cssClass, imgSrc, blurb){
 }
 
 //TODO top level window polution, break out into it's own "module"
+//yes I know "receptical" is miss-spelled...
 $(document).ready(function(){
     var trashObjects = [
         {
@@ -94,7 +95,7 @@ $(document).ready(function(){
         },
         {
             title: "bottle",
-            imgSrc: "img/Pet-bottle.svg",
+            imgSrc: "img/platic-bottle.png",
             isRecyclable: true,
             success: "Thats right! Thank you! Because plastic water bottles are shielded from sunlight in landfills, they will not decompose for thousands of years!",
             failure: "You can recycle that! Americans use 2.5 million plastic bottles every hour! Most of them are thrown away!"
